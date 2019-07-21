@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D920DA922E4B282004686CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DA822E4B282004686CA /* AppDelegate.swift */; };
+		6D920DAB22E4B282004686CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DAA22E4B282004686CA /* ViewController.swift */; };
+		6D920DAE22E4B282004686CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D920DAC22E4B282004686CA /* Main.storyboard */; };
+		6D920DB022E4B285004686CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D920DAF22E4B285004686CA /* Assets.xcassets */; };
+		6D920DB322E4B285004686CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D920DB122E4B285004686CA /* LaunchScreen.storyboard */; };
+		6D920DBE22E4B285004686CA /* CodigosPostalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DBD22E4B285004686CA /* CodigosPostalTests.swift */; };
+		6D920DC922E4B285004686CA /* CodigosPostalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DC822E4B285004686CA /* CodigosPostalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D920DBA22E4B285004686CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D920D9D22E4B281004686CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D920DA422E4B282004686CA;
+			remoteInfo = CodigosPostal;
+		};
+		6D920DC522E4B285004686CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D920D9D22E4B281004686CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D920DA422E4B282004686CA;
+			remoteInfo = CodigosPostal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D920DA522E4B282004686CA /* CodigosPostal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodigosPostal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D920DA822E4B282004686CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D920DAA22E4B282004686CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D920DAD22E4B282004686CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D920DAF22E4B285004686CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D920DB222E4B285004686CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D920DB422E4B285004686CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D920DB922E4B285004686CA /* CodigosPostalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodigosPostalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D920DBD22E4B285004686CA /* CodigosPostalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodigosPostalTests.swift; sourceTree = "<group>"; };
+		6D920DBF22E4B285004686CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D920DC422E4B285004686CA /* CodigosPostalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodigosPostalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D920DC822E4B285004686CA /* CodigosPostalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodigosPostalUITests.swift; sourceTree = "<group>"; };
+		6D920DCA22E4B285004686CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D920DA222E4B282004686CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D920DB622E4B285004686CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D920DC122E4B285004686CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D920D9C22E4B281004686CA = {
+			isa = PBXGroup;
+			children = (
+				6D920DA722E4B282004686CA /* CodigosPostal */,
+				6D920DBC22E4B285004686CA /* CodigosPostalTests */,
+				6D920DC722E4B285004686CA /* CodigosPostalUITests */,
+				6D920DA622E4B282004686CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D920DA622E4B282004686CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D920DA522E4B282004686CA /* CodigosPostal.app */,
+				6D920DB922E4B285004686CA /* CodigosPostalTests.xctest */,
+				6D920DC422E4B285004686CA /* CodigosPostalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D920DA722E4B282004686CA /* CodigosPostal */ = {
+			isa = PBXGroup;
+			children = (
+				6D920DD822E4B2CE004686CA /* ViewModel */,
+				6D920DD722E4B2BD004686CA /* Network */,
+				6D920DD622E4B2A3004686CA /* Models */,
+				6D920DA822E4B282004686CA /* AppDelegate.swift */,
+				6D920DAA22E4B282004686CA /* ViewController.swift */,
+				6D920DAC22E4B282004686CA /* Main.storyboard */,
+				6D920DAF22E4B285004686CA /* Assets.xcassets */,
+				6D920DB122E4B285004686CA /* LaunchScreen.storyboard */,
+				6D920DB422E4B285004686CA /* Info.plist */,
+			);
+			path = CodigosPostal;
+			sourceTree = "<group>";
+		};
+		6D920DBC22E4B285004686CA /* CodigosPostalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D920DBD22E4B285004686CA /* CodigosPostalTests.swift */,
+				6D920DBF22E4B285004686CA /* Info.plist */,
+			);
+			path = CodigosPostalTests;
+			sourceTree = "<group>";
+		};
+		6D920DC722E4B285004686CA /* CodigosPostalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D920DC822E4B285004686CA /* CodigosPostalUITests.swift */,
+				6D920DCA22E4B285004686CA /* Info.plist */,
+			);
+			path = CodigosPostalUITests;
+			sourceTree = "<group>";
+		};
+		6D920DD622E4B2A3004686CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D920DD722E4B2BD004686CA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6D920DD822E4B2CE004686CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D920DA422E4B282004686CA /* CodigosPostal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D920DCD22E4B285004686CA /* Build configuration list for PBXNativeTarget "CodigosPostal" */;
+			buildPhases = (
+				6D920DA122E4B282004686CA /* Sources */,
+				6D920DA222E4B282004686CA /* Frameworks */,
+				6D920DA322E4B282004686CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodigosPostal;
+			productName = CodigosPostal;
+			productReference = 6D920DA522E4B282004686CA /* CodigosPostal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D920DB822E4B285004686CA /* CodigosPostalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D920DD022E4B285004686CA /* Build configuration list for PBXNativeTarget "CodigosPostalTests" */;
+			buildPhases = (
+				6D920DB522E4B285004686CA /* Sources */,
+				6D920DB622E4B285004686CA /* Frameworks */,
+				6D920DB722E4B285004686CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D920DBB22E4B285004686CA /* PBXTargetDependency */,
+			);
+			name = CodigosPostalTests;
+			productName = CodigosPostalTests;
+			productReference = 6D920DB922E4B285004686CA /* CodigosPostalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D920DC322E4B285004686CA /* CodigosPostalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D920DD322E4B285004686CA /* Build configuration list for PBXNativeTarget "CodigosPostalUITests" */;
+			buildPhases = (
+				6D920DC022E4B285004686CA /* Sources */,
+				6D920DC122E4B285004686CA /* Frameworks */,
+				6D920DC222E4B285004686CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D920DC622E4B285004686CA /* PBXTargetDependency */,
+			);
+			name = CodigosPostalUITests;
+			productName = CodigosPostalUITests;
+			productReference = 6D920DC422E4B285004686CA /* CodigosPostalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D920D9D22E4B281004686CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = NDD;
+				TargetAttributes = {
+					6D920DA422E4B282004686CA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6D920DB822E4B285004686CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6D920DA422E4B282004686CA;
+					};
+					6D920DC322E4B285004686CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6D920DA422E4B282004686CA;
+					};
+				};
+			};
+			buildConfigurationList = 6D920DA022E4B281004686CA /* Build configuration list for PBXProject "CodigosPostal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D920D9C22E4B281004686CA;
+			productRefGroup = 6D920DA622E4B282004686CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D920DA422E4B282004686CA /* CodigosPostal */,
+				6D920DB822E4B285004686CA /* CodigosPostalTests */,
+				6D920DC322E4B285004686CA /* CodigosPostalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D920DA322E4B282004686CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D920DB322E4B285004686CA /* LaunchScreen.storyboard in Resources */,
+				6D920DB022E4B285004686CA /* Assets.xcassets in Resources */,
+				6D920DAE22E4B282004686CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D920DB722E4B285004686CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D920DC222E4B285004686CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D920DA122E4B282004686CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D920DAB22E4B282004686CA /* ViewController.swift in Sources */,
+				6D920DA922E4B282004686CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D920DB522E4B285004686CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D920DBE22E4B285004686CA /* CodigosPostalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D920DC022E4B285004686CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D920DC922E4B285004686CA /* CodigosPostalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D920DBB22E4B285004686CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D920DA422E4B282004686CA /* CodigosPostal */;
+			targetProxy = 6D920DBA22E4B285004686CA /* PBXContainerItemProxy */;
+		};
+		6D920DC622E4B285004686CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D920DA422E4B282004686CA /* CodigosPostal */;
+			targetProxy = 6D920DC522E4B285004686CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D920DAC22E4B282004686CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D920DAD22E4B282004686CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D920DB122E4B285004686CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D920DB222E4B285004686CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D920DCB22E4B285004686CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D920DCC22E4B285004686CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D920DCE22E4B285004686CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F856S9955;
+				INFOPLIST_FILE = CodigosPostal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ndd.CodigosPostal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D920DCF22E4B285004686CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F856S9955;
+				INFOPLIST_FILE = CodigosPostal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ndd.CodigosPostal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D920DD122E4B285004686CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F856S9955;
+				INFOPLIST_FILE = CodigosPostalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ndd.CodigosPostalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodigosPostal.app/CodigosPostal";
+			};
+			name = Debug;
+		};
+		6D920DD222E4B285004686CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F856S9955;
+				INFOPLIST_FILE = CodigosPostalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ndd.CodigosPostalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodigosPostal.app/CodigosPostal";
+			};
+			name = Release;
+		};
+		6D920DD422E4B285004686CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F856S9955;
+				INFOPLIST_FILE = CodigosPostalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ndd.CodigosPostalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodigosPostal;
+			};
+			name = Debug;
+		};
+		6D920DD522E4B285004686CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F856S9955;
+				INFOPLIST_FILE = CodigosPostalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ndd.CodigosPostalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodigosPostal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D920DA022E4B281004686CA /* Build configuration list for PBXProject "CodigosPostal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D920DCB22E4B285004686CA /* Debug */,
+				6D920DCC22E4B285004686CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D920DCD22E4B285004686CA /* Build configuration list for PBXNativeTarget "CodigosPostal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D920DCE22E4B285004686CA /* Debug */,
+				6D920DCF22E4B285004686CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D920DD022E4B285004686CA /* Build configuration list for PBXNativeTarget "CodigosPostalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D920DD122E4B285004686CA /* Debug */,
+				6D920DD222E4B285004686CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D920DD322E4B285004686CA /* Build configuration list for PBXNativeTarget "CodigosPostalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D920DD422E4B285004686CA /* Debug */,
+				6D920DD522E4B285004686CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D920D9D22E4B281004686CA /* Project object */;
+}
