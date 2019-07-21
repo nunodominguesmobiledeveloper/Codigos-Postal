@@ -14,6 +14,8 @@
 		6D920DB322E4B285004686CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D920DB122E4B285004686CA /* LaunchScreen.storyboard */; };
 		6D920DBE22E4B285004686CA /* CodigosPostalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DBD22E4B285004686CA /* CodigosPostalTests.swift */; };
 		6D920DC922E4B285004686CA /* CodigosPostalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DC822E4B285004686CA /* CodigosPostalUITests.swift */; };
+		6D920DDA22E4B4B9004686CA /* ErrorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DD922E4B4B9004686CA /* ErrorApi.swift */; };
+		6D920DDC22E4B65F004686CA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920DDB22E4B65F004686CA /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6D920DC422E4B285004686CA /* CodigosPostalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodigosPostalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D920DC822E4B285004686CA /* CodigosPostalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodigosPostalUITests.swift; sourceTree = "<group>"; };
 		6D920DCA22E4B285004686CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D920DD922E4B4B9004686CA /* ErrorApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorApi.swift; sourceTree = "<group>"; };
+		6D920DDB22E4B65F004686CA /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 		6D920DD722E4B2BD004686CA /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				6D920DD922E4B4B9004686CA /* ErrorApi.swift */,
+				6D920DDB22E4B65F004686CA /* Endpoint.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -281,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D920DAB22E4B282004686CA /* ViewController.swift in Sources */,
+				6D920DDA22E4B4B9004686CA /* ErrorApi.swift in Sources */,
+				6D920DDC22E4B65F004686CA /* Endpoint.swift in Sources */,
 				6D920DA922E4B282004686CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
